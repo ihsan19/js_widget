@@ -1,0 +1,21 @@
+<div style="margin: 10px">  
+  <p>Contact Us Widget</p>
+
+  <table style="width: 50%">
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Message</th>
+      <th>Submitted On</th>
+    </tr>
+    <% @contacts.each do |contact| %>
+      <tr>
+        <td><%= contact.name %></td>
+        <td><%= contact.email %></td>
+        <td><%= contact.message %></td>
+        <td><%= contact.created_at.strftime("%m/%d/%Y %I:%M%p") %></td>
+      </tr>
+    <% end %>
+  </table>
+
+</div>

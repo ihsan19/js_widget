@@ -1,0 +1,15 @@
+<script type="text/javascript" src="jquery.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#slideToggle").click(function () {
+        $('.form').slideToggle();
+      });
+    });
+  </script>
+
+  <div class="form" style="display: none; z-index:1000">
+    <%= render :partial => "/contacts/form", :locals => {:contact => contacts} %>
+  </div>
+  <div>
+    <button id=slideToggle>contact</button>
+  </div

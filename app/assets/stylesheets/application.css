@@ -1,0 +1,28 @@
+.contact-form{
+  border: 1px solid #eee;
+  border-radius: 8px;
+  moz-border-radius: 8px;
+  webkit-moz-border-radius: 8px;
+  bottom: -255px;
+  left: 79%;
+  padding: 10px;
+  position: absolute;
+  width: 15%;
+  font-family: monospace;
+}
+
+.slide-toggle-button{
+  background-color: gainsboro;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  moz-border-radius: 8px;
+  webkit-moz-border-radius: 8px;
+  cursor: pointer;
+  bottom: 0;
+  height: 24px;
+  left: 81%;
+  position: absolute;
+  width: 6%;
+  font: small cursive small;
+  color: #333;
+}
